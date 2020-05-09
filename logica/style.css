@@ -1,0 +1,72 @@
+
+body {
+
+  background: #4DA0B0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#content {
+
+
+  width: 550px;
+  height: 450px;
+  margin-left: 25%;
+  margin-top: 10%;
+  animation-name: colors;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#table {
+
+  width: 100%;
+  height: 30%;
+
+}
+
+#table tr {
+
+  background-color: #080935;
+    padding: 100px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+
+}
+
+
+#table #notas {
+
+  background-color: transparent;
+
+}
+
+@keyframes colors {
+
+  0% {
+
+      background-color: #0B4B65;
+
+  }
+
+  25% {
+
+        background-color: #148257;
+
+  }
+
+  50% {
+
+      background-color: #A8A3AC;
+
+  }
+
+  100% {
+
+  background-color: #0B4B65;
+  }
+
+}
